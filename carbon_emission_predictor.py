@@ -542,7 +542,7 @@ if app_mode == "📊 Emission Scan":
                 </div>
                 """, unsafe_allow_html=True)
                 
-                years_to_offset =1
+                years_to_offset =5
                 
                 trees_needed = calculate_trees_needed(prediction[0], years_to_offset)
                 st.markdown(f"""
